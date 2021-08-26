@@ -1,0 +1,8 @@
+name=raman
+age=28
+course=selenium
+salary=50000
+
+name=kuhu
+course=selenium
+dog=selenium
