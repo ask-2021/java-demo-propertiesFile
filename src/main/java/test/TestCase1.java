@@ -42,6 +42,12 @@ public class TestCase1 {
 
     public static void main(String[] args) throws IOException {
         Utility utility = new Utility();
+//        propertyExample(utility);
+        utility.forEachExample();
+
+    }
+
+    private static void propertyExample(Utility utility) throws IOException {
         Properties properties = null;
 
 //        properties = utility.loadPropertyFile(objPropertyFile);
@@ -49,6 +55,6 @@ public class TestCase1 {
 
         properties = utility.loadPropertyFile(objTxtFile);
         utility.printAllKeys(properties);
-
     }
+
 }
